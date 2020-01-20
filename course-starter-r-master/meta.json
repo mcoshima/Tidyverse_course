@@ -1,0 +1,25 @@
+{
+    "courseId": "course-tidyverse-r",
+    "title": "Into the Tidyverse",
+    "slogan": "A free online course",
+    "description": "This course teaches you how to use the Tidyverse syntax and functions to help you clean, sort, and visualize your data better.",
+    "bio": "I am PhD student in quantitative fisheries. When I'm not working on my dissertation research, I enjoy helping others with R.",
+    "siteUrl": "https://course-starter-r.netlify.com",
+    "twitter": "",
+    "fonts": "IBM+Plex+Mono:500|IBM+Plex+Sans:700|Lato:400,400i,700,700i",
+    "testTemplate": "success <- function(text) {\n    cat(paste(\"\\033[32m\", text, \"\\033[0m\", sep = \"\"))\n}\n\n.solution <- \"${solutionEscaped}\"\n\n${solution}\n\n${test}\ntryCatch({\n    test()\n}, error = function(e) {\n    cat(paste(\"\\033[31m\", e[1], \"\\033[0m\", sep = \"\"))\n})",
+    "juniper": {
+        "repo": "mcoshima/Tidyver_course",
+        "branch": "binder",
+        "lang": "r",
+        "kernelType": "ir",
+        "debug": false
+    },
+    "showProfileImage": true,
+    "footerLinks": [
+        { "text": "Website", "url": "www.megoshima.netlify.com" },
+        { "text": "Source", "url": "https://github.com/mcoshima/Tidyverse_course" },
+        { "text": "Built with ♥", "url": "https://github.com/mcoshima/Tidyverse_course" }
+    ],
+    "theme": "#de7878"
+}
